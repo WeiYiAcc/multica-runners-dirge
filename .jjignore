@@ -1,0 +1,4 @@
+transient/
+sessions/
+state.db-*
+*.sock
