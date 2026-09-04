@@ -2,3 +2,4 @@ transient/
 sessions/
 state.db-*
 *.sock
+.env

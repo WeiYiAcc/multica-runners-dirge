@@ -12,8 +12,7 @@
     "openrouter": {
       "provider_type": "openai-responses",
       "base_url": "https://openrouter.ai/api/v1",
-      "model": "openrouter/free",
-      "api_key_file": "/home/weiyiacc/.config/secrets/openrouter.key"
+      "model": "openrouter/free"
     }
   }
 }
