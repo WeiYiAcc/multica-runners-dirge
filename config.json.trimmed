@@ -1,0 +1,19 @@
+{
+  "theme": "plain",
+  "provider": "openrouter",
+  "providers": {
+    "cliproxyapi": {
+      "provider_type": "openai-responses",
+      "base_url": "http://127.0.0.1:8317/v1",
+      "api_key": "ak-local-cpa",
+      "allow_insecure": true,
+      "model": "glm-5.3-flash"
+    },
+    "openrouter": {
+      "provider_type": "openai-responses",
+      "base_url": "https://openrouter.ai/api/v1",
+      "model": "openrouter/free",
+      "api_key_file": "/home/weiyiacc/.config/secrets/openrouter.key"
+    }
+  }
+}
